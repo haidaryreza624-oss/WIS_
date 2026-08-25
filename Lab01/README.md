@@ -220,7 +220,6 @@ Ahmad is studying.
 
 **A2:** `OOPStudent`
 
-> The lab may call the child class `Student`, but `OOPStudent` is used here to avoid a naming conflict with the `Student` class from Part B.
 
 ---
 
