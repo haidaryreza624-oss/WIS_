@@ -96,9 +96,8 @@ Department: Information Systems
 
 **Q: How many classes did you create?**
 
-**A:** I created 2 classes in total: `SimpleStudent` and `Student`.
+**A:** I created ONE classes in total:  `Student`.
 
-However, the lab only asks for the `Student` class; `SimpleStudent` was only used for Part A.
 
 ---
 
@@ -106,11 +105,9 @@ However, the lab only asks for the `Student` class; `SimpleStudent` was only use
 
 **A:** I created 3 objects:
 
-- `$studentA` – Part A
 - `$student1` – Part B
 - `$student2` – Part C
 
-If counting only objects created from the `Student` class, then there are 2 objects: `$student1` and `$student2`.
 
 ---
 
