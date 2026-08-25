@@ -1,7 +1,19 @@
 # Lab Assignment: Introduction to Object-Oriented PHP
 
 
+---
 
+##  Lab 01 Parts
+
+| Part | File         | Topic                           |
+| ---- | ------------ | ------------------------------- |
+| A    | `PART_A.php` | Simple Class and Object         |
+| B    | `PART_B.php` | Student Class with Constructor  |
+| C    | `PART_C.php` | Creating a Second Object        |
+| D    | `PART_D.php` | Access Modifiers                |
+| E    | `PART_E.php` | Inheritance – Parent Class      |
+| F    | `PART_F.txt` | Inheritance Questions & Answers |
+| G    | `PART_G.php` | Vehicle and Car Inheritance     |
 
 ---
 
