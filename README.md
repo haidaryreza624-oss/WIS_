@@ -14,15 +14,20 @@ Object-Oriented-PHP/
 ├── README.md
 │
 └── Lab01/
+|    │
+|    ├── PART_A.php
+|    ├── PART_B.php
+|    ├── PART_C.php
+|    ├── PART_D.php
+|    ├── PART_E.php
+|    ├── PART_F.txt
+|    ├── PART_G.php
+|    └── README.md
+└── Lab02/
     │
-    ├── PART_A.php
-    ├── PART_B.php
-    ├── PART_C.php
-    ├── PART_D.php
-    ├── PART_E.php
-    ├── PART_F.txt
-    ├── PART_G.php
+    ├── Lab_02.php
     └── README.md
+
 ```
 
 
@@ -34,6 +39,7 @@ Object-Oriented-PHP/
 The complete explanation, questions, answers, and expected outputs for Lab 01 are available in:
 
 [`Lab01/README.md`](./Lab01/README.md)
+[`Lab02/README.md`](./Lab02/README.md)
 
 ---
 
@@ -52,5 +58,6 @@ The complete explanation, questions, answers, and expected outputs for Lab 01 ar
 | Lab    |    Status   |
 | ------ | :---------: |
 | Lab 01 | ✅ Completed |
+| Lab 02 | ✅ Completed |
 
 ---
