@@ -49,7 +49,7 @@ The complete explanation, questions, answers, and expected outputs for the labor
 
 [`Lab02/README.md`](./Lab02/README.md)
 
-[`Lab03/README.md`](./Lab04/README.md)
+[`Lab03/README.md`](./lab03/README.md)
 
 ---
 
