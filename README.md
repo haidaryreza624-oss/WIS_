@@ -33,9 +33,10 @@ Object-Oriented-PHP/
     ├── create_table.php
     ├── insert_student.php
     ├── explainations.txt
-    ├── database_created.png 
-    ├── students_table_structure.png 
-    |── inserted_students.png
+    └── screenshots/
+        ├── database_created.png 
+        ├── students_table_structure.png 
+        |── inserted_students.png
     └── README.md
 ```
 
