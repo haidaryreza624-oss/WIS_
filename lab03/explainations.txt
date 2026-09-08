@@ -1,0 +1,195 @@
+WEB INFORMATION SYSTEMS - LAB 04
+PHP + MySQL EXPLANATION NOTES
+
+1. new mysqli()
+
+Example:
+$conn = new mysqli("localhost", "root", "", "wis_lab");
+
+Purpose:
+new mysqli() creates a connection between the PHP application and MySQL.
+
+The four values mean:
+- localhost: the MySQL server is running on the same computer.
+- root: the MySQL username.
+- Wanda123@: the MySQL password.
+- wis_lab: the database to connect to.
+
+In create_database.php, the database name is not included because the database is being created.
+
+2. connect_error
+
+Example:
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+Purpose:
+connect_error checks whether the MySQL connection failed.
+
+If there is a connection problem, it contains the error message.
+
+3. $_POST
+
+Example:
+$databaseName = trim($_POST["database_name"]);
+
+Example:
+$fullName = trim($_POST["full_name"]);
+
+Purpose:
+$_POST receives data submitted from an HTML form when the form uses method="POST".
+
+The name of the HTML input is used as the key.
+
+For example:
+<input type="text" name="full_name">
+
+The submitted value can be accessed with:
+$_POST["full_name"]
+
+trim() removes unnecessary spaces from the beginning and end of the submitted value.
+
+4. query()
+
+Example:
+$conn->query($sql);
+
+Purpose:
+query() sends an SQL statement to MySQL.
+
+In the lab it is used to:
+- Create the database.
+- Create the students table.
+
+It can also execute other SQL statements such as INSERT.
+
+If the query succeeds, it returns TRUE.
+
+5. close()
+
+Example:
+$conn->close();
+
+Purpose:
+close() closes the connection between PHP and MySQL after the database operation is finished.
+
+It is good practice to close the connection when it is no longer needed.
+
+6. prepare()
+
+Example:
+$stmt = $conn->prepare(
+    "INSERT INTO students (full_name, email, department) VALUES (?, ?, ?)"
+);
+
+Purpose:
+prepare() prepares an SQL statement before the actual values are supplied.
+
+The question marks (?) are placeholders for the values.
+
+This is used in the Challenge Task because it helps prevent SQL injection and separates the SQL structure from the user data.
+
+7. bind_param()
+
+Example:
+$stmt->bind_param("sss", $fullName, $email, $department);
+
+Purpose:
+bind_param() connects PHP variables to the ? placeholders in the prepared SQL statement.
+
+The first argument, "sss", specifies the data types:
+- First s = string for fullName
+- Second s = string for email
+- Third s = string for department
+
+So:
+? -> $fullName
+? -> $email
+? -> $department
+
+8. execute()
+
+Example:
+$stmt->execute();
+
+Purpose:
+execute() runs the prepared SQL statement using the values supplied with bind_param().
+
+If execute() succeeds, the student is inserted into the students table.
+
+9. How the insertion works
+
+The user fills in:
+- Full Name
+- Email
+- Department
+
+The form sends the values using POST.
+
+PHP receives them using $_POST.
+
+PHP checks that the fields are not empty.
+
+PHP connects to wis_lab using new mysqli().
+
+PHP prepares the INSERT statement using prepare().
+
+bind_param() connects the three PHP variables to the three placeholders.
+
+execute() runs the INSERT statement.
+
+The success or error message is displayed.
+
+The statement and database connection are closed.
+
+10. Important questions the instructor may ask
+
+Q: What does new mysqli() do?
+A: It creates a connection between PHP and MySQL.
+
+Q: What does connect_error do?
+A: It checks whether the MySQL connection failed and provides the error message.
+
+Q: What does $_POST do?
+A: It receives values submitted by an HTML form using the POST method.
+
+Q: What does query() do?
+A: It sends an SQL query to MySQL for execution.
+
+Q: Why do we use close()?
+A: To close the database connection after it is no longer needed.
+
+Q: What does prepare() do?
+A: It prepares an SQL statement with placeholders for values.
+
+Q: What does bind_param() do?
+A: It binds PHP variables to the placeholders in the prepared statement.
+
+Q: What does execute() do?
+A: It executes the prepared SQL statement.
+
+Q: Why use a prepared statement?
+A: It separates user data from the SQL statement and helps prevent SQL injection.
+
+Q: Why is "sss" used in bind_param()?
+A: Because full_name, email, and department are all strings.
+
+11. Application flow
+
+1. User enters a database name.
+2. PHP receives the name using $_POST.
+3. PHP validates the database name.
+4. new mysqli() connects to MySQL.
+5. query() executes CREATE DATABASE.
+6. The connection is closed.
+7. create_table.php connects to wis_lab.
+8. query() executes CREATE TABLE.
+9. insert_student.php receives student information using $_POST.
+10. The fields are validated.
+11. prepare() prepares the INSERT statement.
+12. bind_param() binds the student values.
+13. execute() inserts the student.
+14. The statement and connection are closed.
+
+These are the main concepts you should understand before submitting the lab.
