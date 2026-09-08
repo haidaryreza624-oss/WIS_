@@ -27,7 +27,7 @@ Object-Oriented-PHP/
 │   ├── Lab_02.php
 │   └── README.md
 │
-└── Lab04/
+└── Lab03/
     │
     ├── create_database.php
     ├── create_table.php
