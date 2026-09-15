@@ -27,16 +27,22 @@ Object-Oriented-PHP/
 │   ├── Lab_02.php
 │   └── README.md
 │
-└── Lab03/
+├── lab03/
+│   │
+│   ├── create_database.php
+│   ├── create_table.php
+│   ├── insert_student.php
+│   ├── explainations.txt
+│   ├── screenshots/
+│   │   ├── database_created.png
+│   │   ├── students_table_structure.png
+│   │   └── inserted_students.png
+│   └── README.md
+│
+└── lab04/
     │
-    ├── create_database.php
-    ├── create_table.php
-    ├── insert_student.php
-    ├── explainations.txt
-    └── screenshots/
-        ├── database_created.png 
-        ├── students_table_structure.png 
-        |── inserted_students.png
+    ├── db.php
+    ├── admission.php
     └── README.md
 ```
 
@@ -50,8 +56,9 @@ The complete explanation, questions, answers, and expected outputs for the labor
 
 [`Lab02/README.md`](./Lab02/README.md)
 
-[`Lab03/README.md`](./lab03/README.md)
+[`lab03/README.md`](./Lab03/README.md)
 
+[`lab04/README.md`](./Lab04/README.md)
 ---
 
 ## Student Information
@@ -69,6 +76,7 @@ The complete explanation, questions, answers, and expected outputs for the labor
 | Lab 01 | ✅ Completed |
 | Lab 02 | ✅ Completed |
 | Lab 03 | ✅ Completed |
+| Lab 04 | ✅ Completed |
 
 ---
 
