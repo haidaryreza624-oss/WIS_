@@ -8,7 +8,5 @@ Route::get('/', function () {
     );
 });
 Route::get('/about', function () {
-    return view('about',
-    ['course'=>'Web Information System']
-    );
+    return view('about');
 });
