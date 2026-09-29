@@ -8,6 +8,6 @@
 | ---- | ---- | ----- |
 | A | `resource/views/home.blade.php` | create simple blade view |
 | B | `routes/web.php` | create a simple route |
-| C | `about.blade.php` | build your own page |
+| C | `resource/views/about.blade.php` | build your own page |
 ---
 
