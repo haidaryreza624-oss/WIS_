@@ -40,10 +40,12 @@ Object-Oriented-PHP/
 │   └── README.md
 │
 └── lab04/
-    │
-    ├── db.php
-    ├── admission.php
-    └── README.md
+|   │
+|   ├── db.php
+|   ├── admission.php
+|   └── README.md
+└── laravel_lab/
+    
 ```
 
 ---
@@ -59,6 +61,9 @@ The complete explanation, questions, answers, and expected outputs for the labor
 [`lab03/README.md`](./lab03/README.md)
 
 [`lab04/README.md`](./lab04/README.md)
+
+[`laravel_lab/README.md`](./laravel_lab/README.md)
+
 
 ---
 
@@ -78,6 +83,7 @@ The complete explanation, questions, answers, and expected outputs for the labor
 | Lab 02 | ✅ Completed |
 | Lab 03 | ✅ Completed |
 | Lab 04 | ✅ Completed |
+| laravel_lab | ✅ Completed |
 
 ---
 
