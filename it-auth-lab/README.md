@@ -7,4 +7,3 @@
 | E | `resources/views/dashboard.blade.php` | Display the authenticated student's name and email |
 | F | `.env` | Configure the MySQL database connection |
 | G | `database/migrations/` | Create the database tables using Laravel migrations |
-| H | Testing checklist | Test registration, login, dashboard protection, and logout |
