@@ -3,44 +3,100 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - IT Student Portal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login | IT Student Portal</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
 </head>
-<body>
-    <h1>Login to IT Student Portal</h1>
+<body class="bg-light">
 
-    @if ($errors->any())
-        <ul>
-            @foreach ($errors->all() as $error)
-                <li>{{ $error }}</li>
-            @endforeach
-        </ul>
-    @endif
-
-    @if (session('success'))
-        <p>{{ session('success') }}</p>
-    @endif
-
-    <form method="POST" action="{{ route('login.store') }}">
-        @csrf
-
-        <label for="email">Email</label>
-        <input id="email" name="email" type="email"
-               value="{{ old('email') }}" required>
-        <br><br>
-
-        <label for="password">Password</label>
-        <input id="password" name="password" type="password"
-               required>
-        <br><br>
-
-        <button type="submit">Login</button>
-    </form>
-
-    <p>
-        <a href="{{ route('register') }}">
-            Don't have an account? Register
+<nav class="navbar navbar-dark bg-primary">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="{{ route('login') }}">
+            IT Student Portal
         </a>
-    </p>
+    </div>
+</nav>
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-7 col-lg-5">
+
+            <div class="card border-0 shadow-sm">
+                <div class="card-body p-4 p-md-5">
+
+                    <h2 class="text-center mb-2">Welcome Back</h2>
+                    <p class="text-center text-muted mb-4">
+                        Sign in to access your student dashboard.
+                    </p>
+
+                    @if ($errors->any())
+                        <div class="alert alert-danger">
+                            <ul class="mb-0">
+                                @foreach ($errors->all() as $error)
+                                    <li>{{ $error }}</li>
+                                @endforeach
+                            </ul>
+                        </div>
+                    @endif
+
+                    @if (session('success'))
+                        <div class="alert alert-success">
+                            {{ session('success') }}
+                        </div>
+                    @endif
+
+                    <form method="POST"
+                          action="{{ route('login.store') }}">
+                        @csrf
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">
+                                Email Address
+                            </label>
+                            <input type="email"
+                                   class="form-control"
+                                   id="email"
+                                   name="email"
+                                   value="{{ old('email') }}"
+                                   placeholder="you@example.com"
+                                   required>
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="password" class="form-label">
+                                Password
+                            </label>
+                            <input type="password"
+                                   class="form-control"
+                                   id="password"
+                                   name="password"
+                                   placeholder="Enter your password"
+                                   required>
+                        </div>
+
+                        <button type="submit"
+                                class="btn btn-primary w-100">
+                            Sign In
+                        </button>
+                    </form>
+
+                    <p class="text-center mt-4 mb-0">
+                        Don't have an account?
+                        <a href="{{ route('register') }}"
+                           class="text-decoration-none">
+                            Register
+                        </a>
+                    </p>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
 </body>
 </html>
