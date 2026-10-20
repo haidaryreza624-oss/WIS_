@@ -1,3 +1,4 @@
+
 # Web Information System – Lab Assignments
 
 This folder contains the laboratory assignments for the **WEB INFORMATION SYSTEM** course.
@@ -7,12 +8,11 @@ This folder contains the laboratory assignments for the **WEB INFORMATION SYSTEM
 ## Folder Structure
 
 ```text
-Object-Oriented-PHP/
+Web-Information-System/
 │
 ├── README.md
 │
 ├── Lab01/
-│   │
 │   ├── PART_A.php
 │   ├── PART_B.php
 │   ├── PART_C.php
@@ -23,12 +23,10 @@ Object-Oriented-PHP/
 │   └── README.md
 │
 ├── Lab02/
-│   │
 │   ├── Lab_02.php
 │   └── README.md
 │
 ├── lab03/
-│   │
 │   ├── create_database.php
 │   ├── create_table.php
 │   ├── insert_student.php
@@ -39,31 +37,30 @@ Object-Oriented-PHP/
 │   │   └── inserted_students.png
 │   └── README.md
 │
-└── lab04/
-|   │
-|   ├── db.php
-|   ├── admission.php
-|   └── README.md
-└── laravel_lab/
-    
+├── lab04/
+│   ├── db.php
+│   ├── admission.php
+│   └── README.md
+│
+├── laravel_lab/
+│   └── README.md
+│
+└── it-auth-lab/
+    └── README.md
 ```
 
 ---
 
 ## Lab Documentation
 
-The complete explanation, questions, answers, and expected outputs for the laboratory assignments are available in:
+The complete explanations, questions, answers, and expected outputs for the laboratory assignments are available in the following files:
 
-[`Lab01/README.md`](./Lab01/README.md)
-
-[`Lab02/README.md`](./Lab02/README.md)
-
-[`lab03/README.md`](./lab03/README.md)
-
-[`lab04/README.md`](./lab04/README.md)
-
-[`laravel_lab/README.md`](./laravel_lab/README.md)
-
+- [Lab 01 Documentation](./Lab01/README.md)
+- [Lab 02 Documentation](./Lab02/README.md)
+- [Lab 03 Documentation](./lab03/README.md)
+- [Lab 04 Documentation](./lab04/README.md)
+- [Laravel Lab Documentation](./laravel_lab/README.md)
+- [IT Authentication Lab Documentation](./it-auth-lab/README.md)
 
 ---
 
@@ -77,15 +74,13 @@ The complete explanation, questions, answers, and expected outputs for the labor
 
 ## Current Progress
 
-| Lab    |    Status   |
-| ------ | :---------: |
+| Lab | Status |
+| ---- | :----: |
 | Lab 01 | ✅ Completed |
 | Lab 02 | ✅ Completed |
 | Lab 03 | ✅ Completed |
 | Lab 04 | ✅ Completed |
-| laravel_lab | ✅ Completed |
+| Laravel Lab | ✅ Completed |
+| IT Authentication Lab | ✅ Completed |
 
 ---
-
-```
-```
