@@ -76,11 +76,11 @@ The complete explanations, questions, answers, and expected outputs for the labo
 
 | Lab | Status |
 | ---- | :----: |
-| Lab 01 | ✅ Completed |
-| Lab 02 | ✅ Completed |
-| Lab 03 | ✅ Completed |
-| Lab 04 | ✅ Completed |
-| Laravel Lab | ✅ Completed |
-| IT Authentication Lab | ✅ Completed |
+| Lab 01 |  Completed |
+| Lab 02 |  Completed |
+| Lab 03 |  Completed |
+| Lab 04 |  Completed |
+| Laravel Lab | Completed |
+| IT Authentication Lab |  Completed |
 
 ---
