@@ -72,12 +72,16 @@ Web-Information-System/
 ## Current Progress
 
 | Lab | Status |
-|---|:---:|
-| Lab 01 | ✅ Completed |
-| Lab 02 | ✅ Completed |
-| Lab 03 | ✅ Completed |
-| Lab 04 | ✅ Completed |
-| Laravel Lab | ✅ Completed |
-| Book Store Lab | ✅ Completed |
+
+
+| ---- | :----: |
+| Lab 01 |  Completed |
+| Lab 02 |  Completed |
+| Lab 03 |  Completed |
+| Lab 04 |  Completed |
+| Laravel Lab | Completed |
+| IT Authentication Lab |  Completed |
+| BookStore Lab |  Completed |
+
 
 ---
