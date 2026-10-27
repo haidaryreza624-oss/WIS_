@@ -1,4 +1,3 @@
-
 # Web Information System – Lab Assignments
 
 This folder contains the laboratory assignments for the **WEB INFORMATION SYSTEM** course.
@@ -45,7 +44,7 @@ Web-Information-System/
 ├── laravel_lab/
 │   └── README.md
 │
-└── it-auth-lab/
+└── book_store/
     └── README.md
 ```
 
@@ -53,14 +52,12 @@ Web-Information-System/
 
 ## Lab Documentation
 
-The complete explanations, questions, answers, and expected outputs for the laboratory assignments are available in the following files:
-
 - [Lab 01 Documentation](./Lab01/README.md)
 - [Lab 02 Documentation](./Lab02/README.md)
 - [Lab 03 Documentation](./lab03/README.md)
 - [Lab 04 Documentation](./lab04/README.md)
 - [Laravel Lab Documentation](./laravel_lab/README.md)
-- [IT Authentication Lab Documentation](./it-auth-lab/README.md)
+- [Book Store Lab Documentation](./book_store/README.md)
 
 ---
 
@@ -75,12 +72,12 @@ The complete explanations, questions, answers, and expected outputs for the labo
 ## Current Progress
 
 | Lab | Status |
-| ---- | :----: |
+|---|:---:|
 | Lab 01 | ✅ Completed |
 | Lab 02 | ✅ Completed |
 | Lab 03 | ✅ Completed |
 | Lab 04 | ✅ Completed |
 | Laravel Lab | ✅ Completed |
-| IT Authentication Lab | ✅ Completed |
+| Book Store Lab | ✅ Completed |
 
 ---
