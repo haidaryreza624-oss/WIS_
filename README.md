@@ -58,6 +58,7 @@ Web-Information-System/
 - [Lab 04 Documentation](./lab04/README.md)
 - [Laravel Lab Documentation](./laravel_lab/README.md)
 - [Book Store Lab Documentation](./book_store/README.md)
+- [Courses Lab Documentation](./Courses/README.md)
 
 ---
 
@@ -74,7 +75,7 @@ Web-Information-System/
 | Lab | Status |
 
 
-| ---- | :----: |
+| ---- | ---- |
 | Lab 01 |  Completed |
 | Lab 02 |  Completed |
 | Lab 03 |  Completed |
@@ -82,6 +83,7 @@ Web-Information-System/
 | Laravel Lab | Completed |
 | IT Authentication Lab |  Completed |
 | BookStore Lab |  Completed |
+| Courses |  Completed |
 
 
 ---
