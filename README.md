@@ -76,9 +76,9 @@ Web-Information-System/
 
 ## Current Progress
 
-| Lab | Status |
 
 
+| Name | status|
 | ---- | ---- |
 | Lab 01 |  Completed |
 | Lab 02 |  Completed |
@@ -90,4 +90,3 @@ Web-Information-System/
 | Courses |  Completed |
 
 
----
