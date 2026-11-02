@@ -6,8 +6,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class Course extends Model
 {
-    // course table fillable cols
-
     protected $fillable = [
         'user_id',
         'course_code',
